@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Abrir links em nova aba",
+  "version": "1.0",
+  "description": "Abre 5 links em uma nova aba dentro de uma classe específica a cada clique em um botão.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.pelando.com.br/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

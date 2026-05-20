@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp",
+  "version": "1.0",
+  "description": "Uma extensão para ajustar o max-width no WhatsApp Web",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
