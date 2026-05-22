@@ -1,8 +1,18 @@
 # Extension-web
-Extensoes que fiz para facilitarem meu uso em sites.
 
-NotambleYt, foi feito para ter a experiencia de não ter nhuma tamble no youtube, porque acabamos por sermos influenciados visualmente, e eu queria saber como é a experiencia de clicar em um video baseado pela descricao e não pela imagem.
+Conjunto de extensões desenvolvidas para facilitar e otimizar o uso pessoal de ferramentas e sites no dia a dia.
 
-openlink, fiz por conta de querer abrir links do pelando, algum tempo atraz ele colocava varios links de cursos gratuitos da udemy, fiz essa extensao para abrir todas os link para eu so ter que aceitar o curso.
+## Extensões Incluídas
 
-WhatSize, gosto de ter pouca informação na tela quando estou utilizando ela, e ficar vendo o nome das pessoas que converso estava ocupando muito espaço com a tela na vertical, entao alterei o tamanho para mostrar somente a foto.
+### NotableYt
+Extensão desenvolvida para ocultar todas as thumbnails (miniaturas) do YouTube. O objetivo foi remover a influência visual das imagens sobre a escolha dos vídeos, permitindo uma experiência baseada estritamente no título e na descrição do conteúdo.
+
+### openlink
+Ferramenta criada para automatizar a abertura de links promocionais em massa a partir da plataforma Pelando (focada principalmente em listar cursos gratuitos da Udemy). A extensão abre todos os links de uma vez para que o usuário precise apenas realizar o resgate dos cursos de forma rápida.
+
+### WhatSize
+Focada em minimalismo e ganho de espaço de tela. Como a exibição do nome dos contatos ocupava muito espaço lateral ao utilizar a tela na vertical, esta extensão altera a interface para ocultar os nomes e exibir apenas as fotos de perfil.
+
+## Tecnologias Utilizadas
+- JavaScript (Web Extensions API)
+- CSS (para estilização e ocultação de elementos de interface)
