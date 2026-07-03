@@ -1,7 +1,7 @@
 //deixa somente em destaque os icones de perfil 
 
 function ajustarMaxWidth() {
-  const elementos = document.querySelectorAll('._aigw');
+  const elementos = document.querySelectorAll('.x10fiusa.x10fiusa');
 
   elementos.forEach(elemento => {
     elemento.style.maxWidth = '75px';
